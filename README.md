@@ -51,3 +51,43 @@ This dataset is primarily used for training Machine Learning models to predict w
 Feature engineering & scaling for better model performance.
 
 Training models like Logistic Regression, Decision Trees, Random Forest, Linear Regression , support Vector machine and KNN .
+
+And then calculate the Accuarcy , MSE and RMSE.
+
+
+#  Formulas for Accuracy, MSE, RMSE, and Confusion Matrix
+
+
+1️⃣ Accuracy (for Classification)
+Accuracy measures the percentage of correctly classified instances out of the total instances.
+
+Accuracy
+=
+𝑇
+𝑃
++
+𝑇
+𝑁
+𝑇
+𝑃
++
+𝑇
+𝑁
++
+𝐹
+𝑃
++
+𝐹
+𝑁
+Accuracy= 
+TP+TN+FP+FN
+TP+TN
+​
+ 
+Where:
+
+TP (True Positives) → Correctly predicted positives
+TN (True Negatives) → Correctly predicted negatives
+FP (False Positives) → Incorrectly predicted as positive
+FN (False Negatives) → Incorrectly predicted as negative
+✅ Higher accuracy means a better model, but it may not be reliable for imbalanced datasets.
