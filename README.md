@@ -18,5 +18,36 @@ Here we are using the diabetes dataset.
 | **Age**                     | Age of the individual                                  |
 | **Outcome**                 | Diabetes status (0 = No, 1 = Yes)                      |
 
+# Data Preprocessing & Cleaning
+
+Some columns (Glucose, Blood Pressure, Skin Thickness, Insulin, BMI) contain zero values, which are likely missing data.
+
+We replaced zeros with NaN and then filled missing values using the median to maintain data integrity.
+
+Checked for outliers using boxplots to ensure data consistency.
 
 
+# Exploratory Data Analysis (EDA)
+
+Descriptive Statistics: Summary of each column (mean, median, etc.).
+
+Visualizations:
+
+Histogram & Boxplots: Understand the data distribution.
+
+Correlation Heatmap: Identify relationships between variables.
+
+Pie Chart: Distribution of diabetic vs. non-diabetic individuals.
+
+
+# Goal of the Dataset
+
+This dataset is primarily used for training Machine Learning models to predict whether an individual has diabetes based on input features.
+
+
+
+# Next Steps
+
+Feature engineering & scaling for better model performance.
+
+Training models like Logistic Regression, Decision Trees, Random Forest, Linear Regression , support Vector machine and KNN .
