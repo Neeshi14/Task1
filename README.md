@@ -61,28 +61,9 @@ And then calculate the Accuarcy , MSE and RMSE.
 1️⃣ Accuracy (for Classification)
 Accuracy measures the percentage of correctly classified instances out of the total instances.
 
-Accuracy
-=
-𝑇
-𝑃
-+
-𝑇
-𝑁
-𝑇
-𝑃
-+
-𝑇
-𝑁
-+
-𝐹
-𝑃
-+
-𝐹
-𝑁
-Accuracy= 
-TP+TN+FP+FN
-TP+TN
-​
+$$ Accuracy = \frac{TP + TN}{TP + TN + FP + FN} $$
+The formula for accuracy is $ Accuracy = \frac{TP + TN}{TP + TN + FP + FN} $.
+
  
 Where:
 
