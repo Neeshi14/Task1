@@ -61,11 +61,11 @@ And then calculate the Accuarcy , MSE and RMSE.
    between the dependent (target) variable and one or more independent (predictor) variables.
 
 # 2)  Logistic Regression :
-    Logistic Regression is a supervised machine learning algorithm used for classification problems. It predicts the probability that a given input belongs to a 
-    particular class, typically in binary classification (e.g., Yes/No, 0/1, True/False).
+    Logistic Regression is a supervised machine learning algorithm used for classification problems. It predicts the probability 
+    that a given input belongs to a particular class, typically in binary classification (e.g., Yes/No, 0/1, True/False).
 
 # 3)  Support vector Machince :
-     Support Vector Machine (SVM) is a supervised machine learning algorithm used for classification and regression tasks. It is widely used for binary 
-     classification, but it can also handle multi-class problems.
+     Support Vector Machine (SVM) is a supervised machine learning algorithm used for classification and regression tasks. It is 
+     widely used for binary classification, but it can also handle multi-class problems.
 
 
