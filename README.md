@@ -76,6 +76,12 @@ And then calculate the Accuarcy , MSE and RMSE.
    A Decision Tree is a supervised machine learning algorithm used for classification and regression tasks. It works like a flowchart, where each internal node represents a 
    decision based on a feature, branches represent outcomes, and leaf nodes represent final predictions.
 
+# 6) Random Forest Tree:
+   Random Forest is an ensemble learning algorithm that builds multiple decision trees and combines their outputs to improve accuracy and reduce overfitting. It is commonly 
+   used for classification and regression tasks.
+
+
+
 
 
 
