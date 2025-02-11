@@ -68,4 +68,14 @@ And then calculate the Accuarcy , MSE and RMSE.
    Support Vector Machine (SVM) is a supervised machine learning algorithm used for classification and regression tasks. It is 
    widely used for binary classification, but it can also handle multi-class problems.
 
+# 4)  KNN(k-Nearest Neighbor) :
+   K-Nearest Neighbors (KNN) is a supervised machine learning algorithm used for classification and regression tasks. It is based on the idea that data points with similar 
+   features tend to be near each other.
+
+ # 5) Decision Tree :
+   A Decision Tree is a supervised machine learning algorithm used for classification and regression tasks. It works like a flowchart, where each internal node represents a 
+   decision based on a feature, branches represent outcomes, and leaf nodes represent final predictions.
+
+
+
 
