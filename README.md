@@ -53,8 +53,11 @@ And then calculate the Accuarcy , MSE and RMSE.
    between the dependent (target) variable and one or more independent (predictor) variables.
 
    training accuracy : 77%
+   
    testing accuracy : 76%
+   
    MSE : 0.1728509202792819
+   
    RMSE : 0.4157534368821043
 
 # 2)  Logistic Regression :
@@ -62,8 +65,11 @@ And then calculate the Accuarcy , MSE and RMSE.
    that a given input belongs to a particular class, typically in binary classification (e.g., Yes/No, 0/1, True/False).
 
    training accuracy : 77%
+   
    testing accuracy : 76%
+   
     MSE : 0.23376623376623376
+    
    RMSE : 0.48349377841522817
    
 # 3)  Support vector Machince :
@@ -71,8 +77,11 @@ And then calculate the Accuarcy , MSE and RMSE.
    widely used for binary classification, but it can also handle multi-class problems.
 
    training accuracy : 77%
+   
    testing accuracy : 76%
+   
     MSE : 0.23376623376623376
+    
    RMSE : 0.48349377841522817
 
 # 4)  KNN(k-Nearest Neighbor) :
@@ -80,8 +89,11 @@ And then calculate the Accuarcy , MSE and RMSE.
    features tend to be near each other.
 
    training accuracy : 77%
+   
    testing accuracy : 73%
+   
     MSE :  0.2662337662337662
+    
    RMSE : 0.515978455203089
 
  # 5) Decision Tree :
@@ -89,8 +101,11 @@ And then calculate the Accuarcy , MSE and RMSE.
    decision based on a feature, branches represent outcomes, and leaf nodes represent final predictions.
 
    training accuracy : 77%
-   testing accuracy : 67%
+   
+   testing accuracy : 70%
+   
     MSE :  0.3051948051948052
+    
    RMSE : 0.5524443910429403
 
 # 6) Random Forest Tree:
@@ -98,8 +113,11 @@ And then calculate the Accuarcy , MSE and RMSE.
    used for classification and regression tasks.
 
    training accuracy : 77%
+   
    testing accuracy : 76%
+   
     MSE : 0.23376623376623376
+    
    RMSE :  0.48349377841522817
 
 
