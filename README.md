@@ -68,7 +68,7 @@ And then calculate the Accuarcy , MSE and RMSE.
    
    testing accuracy : 76%
    
-    MSE : 0.23376623376623376
+   MSE : 0.23376623376623376
     
    RMSE : 0.48349377841522817
    
@@ -80,7 +80,7 @@ And then calculate the Accuarcy , MSE and RMSE.
    
    testing accuracy : 76%
    
-    MSE : 0.23376623376623376
+   MSE : 0.23376623376623376
     
    RMSE : 0.48349377841522817
 
@@ -92,7 +92,7 @@ And then calculate the Accuarcy , MSE and RMSE.
    
    testing accuracy : 73%
    
-    MSE :  0.2662337662337662
+   MSE :  0.2662337662337662
     
    RMSE : 0.515978455203089
 
@@ -104,7 +104,7 @@ And then calculate the Accuarcy , MSE and RMSE.
    
    testing accuracy : 70%
    
-    MSE :  0.3051948051948052
+   MSE :  0.3051948051948052
     
    RMSE : 0.5524443910429403
 
@@ -116,7 +116,7 @@ And then calculate the Accuarcy , MSE and RMSE.
    
    testing accuracy : 76%
    
-    MSE : 0.23376623376623376
+   MSE : 0.23376623376623376
     
    RMSE :  0.48349377841522817
 
