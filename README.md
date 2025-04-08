@@ -12,10 +12,9 @@ This project aims to predict whether an individual is diabetic based on health-r
 - Summary statistics (mean, median, std) for each feature.
 
 ###  Visualizations
-- **Histograms & Boxplots**: Examine the distribution and detect outliers.
-- **Correlation Heatmap**: Identify feature relationships.
 - **Pie Chart**: Visualize the proportion of diabetic vs. non-diabetic individuals.
-
+- **Box Plot**: visualize the numerical features
+- **Histograms**: Examine the distribution and detect outliers.
 ---
 
 ##  Task 2: Data Preprocessing & Cleaning
