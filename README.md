@@ -1,127 +1,96 @@
-# Task1
-perform EDA on dataset
-# Exploratory Data Analysis (EDA)
+#  Diabetes Prediction using Machine Learning
 
-Descriptive Statistics: Summary of each column (mean, median, etc.).
+This project aims to predict whether an individual is diabetic based on health-related attributes using multiple machine learning algorithms. We use Exploratory Data Analysis (EDA), preprocessing, and various classification models to understand the dataset and improve prediction accuracy.
 
-Visualizations:
+---
 
-Histogram & Boxplots: Understand the data distribution.
+##  Task 1: Exploratory Data Analysis (EDA)
 
-Correlation Heatmap: Identify relationships between variables.
+**Objective:** Analyze and understand the distribution, relationships, and quality of the data.
 
-Pie Chart: Distribution of diabetic vs. non-diabetic individuals.
-# Data Preprocessing & Cleaning
+###  Descriptive Statistics
+- Summary statistics (mean, median, std) for each feature.
 
-Some columns (Glucose, Blood Pressure, Skin Thickness, Insulin, BMI) contain zero values, which are likely missing data.
+###  Visualizations
+- **Histograms & Boxplots**: Examine the distribution and detect outliers.
+- **Correlation Heatmap**: Identify feature relationships.
+- **Pie Chart**: Visualize the proportion of diabetic vs. non-diabetic individuals.
 
-We replaced zeros with NaN and then filled missing values using the median to maintain data integrity.
+---
 
-Checked for outliers using boxplots to ensure data consistency.
-# Task2 
-understand the basic information about the dataset
+##  Task 2: Data Preprocessing & Cleaning
 
+Certain columns contain zero values that likely represent missing data:
+- **Affected columns**: `Glucose`, `BloodPressure`, `SkinThickness`, `Insulin`, `BMI`
 
-Here we are using the diabetes dataset.
+###  Cleaning Steps:
+- Replaced zeroes with `NaN`.
+- Filled missing values with the **median** to preserve data integrity.
+- Checked for outliers using boxplots and handled accordingly.
 
-| Column Name                 | Description                                              |
-|-----------------------------|----------------------------------------------------------|
-| **Pregnancies**             | Number of times a woman has been pregnant               |
-| **Glucose**                 | Blood glucose concentration (mg/dL)                     |
-| **BloodPressure**           | Diastolic blood pressure (mm Hg)                        |
-| **SkinThickness**           | Thickness of skin fold (mm)                             |
-| **Insulin**                 | Insulin level in blood (mu U/ml)                        |
-| **BMI**                     | Body Mass Index (weight/height²)                        |
-| **DiabetesPedigreeFunction**| Genetic risk factor (higher value = higher risk)       |
-| **Age**                     | Age of the individual                                  |
-| **Outcome**                 | Diabetes status (0 = No, 1 = Yes)                      |
+---
 
+##  Dataset Information
 
+The dataset used is the **PIMA Indians Diabetes Dataset**.
 
-# Next Steps
+| Column                     | Description                                                  |
+|---------------------------|--------------------------------------------------------------|
+| `Pregnancies`             | Number of times the individual has been pregnant             |
+| `Glucose`                 | Blood glucose concentration                                  |
+| `BloodPressure`           | Diastolic blood pressure (mm Hg)                             |
+| `SkinThickness`           | Triceps skin fold thickness (mm)                             |
+| `Insulin`                 | 2-hour serum insulin (mu U/ml)                               |
+| `BMI`                     | Body Mass Index (weight in kg / (height in m)^2)             |
+| `DiabetesPedigreeFunction`| A function that scores likelihood of diabetes based on family history |
+| `Age`                     | Age in years                                                 |
+| `Outcome`                 | Diabetes status (0 = Non-diabetic, 1 = Diabetic)             |
 
-Feature engineering & scaling for better model performance.
+---
 
-Training models like Logistic Regression, Decision Trees, Random Forest, Linear Regression , support Vector machine and KNN .
+##  Next Steps
 
-And then calculate the Accuarcy , MSE and RMSE.
+- Perform **feature engineering** and **scaling** for model performance.
+- Train and evaluate various machine learning models:
+  - Linear Regression
+  - Logistic Regression
+  - Support Vector Machine (SVM)
+  - K-Nearest Neighbors (KNN)
+  - Decision Tree
+  - Random Forest
 
+- Evaluate model performance using:
+  - **Accuracy**
+  - **Mean Squared Error (MSE)**
+  - **Root Mean Squared Error (RMSE)**
 
+---
 
-# 1)  Linear Regression :
-   Linear Regression is a supervised learning algorithm used for predicting a continuous numerical value based on given input features. It assumes a linear relationship 
-   between the dependent (target) variable and one or more independent (predictor) variables.
+##  Model Performance Comparison
 
-   training accuracy : 77%
-   
-   testing accuracy : 76%
-   
-   MSE : 0.1728509202792819
-   
-   RMSE : 0.4157534368821043
+| Model                  | Training Accuracy | Testing Accuracy | MSE       | RMSE     |
+|------------------------|------------------|------------------|-----------|----------|
+| **Linear Regression**  | 77%              | 76%              | 0.1728    | 0.4158   |
+| **Logistic Regression**| 77%              | 76%              | 0.2338    | 0.4835   |
+| **SVM**                | 77%              | 76%              | 0.2338    | 0.4835   |
+| **KNN**                | 77%              | 73%              | 0.2662    | 0.5160   |
+| **Decision Tree**      | 77%              | 70%              | 0.3052    | 0.5524   |
+| **Random Forest**      | 77%              | 76%              | 0.2338    | 0.4835   |
 
-# 2)  Logistic Regression :
-   Logistic Regression is a supervised machine learning algorithm used for classification problems. It predicts the probability 
-   that a given input belongs to a particular class, typically in binary classification (e.g., Yes/No, 0/1, True/False).
+---
 
-   training accuracy : 77%
-   
-   testing accuracy : 76%
-   
-   MSE : 0.23376623376623376
-    
-   RMSE : 0.48349377841522817
-   
-# 3)  Support vector Machince :
-   Support Vector Machine (SVM) is a supervised machine learning algorithm used for classification and regression tasks. It is 
-   widely used for binary classification, but it can also handle multi-class problems.
+##  Tech Stack
 
-   training accuracy : 77%
-   
-   testing accuracy : 76%
-   
-   MSE : 0.23376623376623376
-    
-   RMSE : 0.48349377841522817
+- **Python**
+- **Pandas**, **NumPy**
+- **Matplotlib**, **Seaborn**
+- **Scikit-learn**
 
-# 4)  KNN(k-Nearest Neighbor) :
-   K-Nearest Neighbors (KNN) is a supervised machine learning algorithm used for classification and regression tasks. It is based on the idea that data points with similar 
-   features tend to be near each other.
+---
 
-   training accuracy : 77%
-   
-   testing accuracy : 73%
-   
-   MSE :  0.2662337662337662
-    
-   RMSE : 0.515978455203089
+##  Conclusion
 
- # 5) Decision Tree :
-   A Decision Tree is a supervised machine learning algorithm used for classification and regression tasks. It works like a flowchart, where each internal node represents a 
-   decision based on a feature, branches represent outcomes, and leaf nodes represent final predictions.
-
-   training accuracy : 77%
-   
-   testing accuracy : 70%
-   
-   MSE :  0.3051948051948052
-    
-   RMSE : 0.5524443910429403
-
-# 6) Random Forest Tree:
-   Random Forest is an ensemble learning algorithm that builds multiple decision trees and combines their outputs to improve accuracy and reduce overfitting. It is commonly 
-   used for classification and regression tasks.
-
-   training accuracy : 77%
-   
-   testing accuracy : 76%
-   
-   MSE : 0.23376623376623376
-    
-   RMSE :  0.48349377841522817
-
-
-
+This project demonstrates how machine learning can be applied to predict diabetes using health-related parameters. Through EDA, preprocessing, and algorithm comparison, we gained valuable insights into the model performances and their limitations.
 
 
 
