@@ -68,13 +68,13 @@ The dataset used is the **PIMA Indians Diabetes Dataset**.
 ##  Model Performance Comparison
 
 | Model                  | Training Accuracy | Testing Accuracy | MSE       | RMSE     |
-|------------------------|------------------|------------------|-----------|----------|
-| **Linear Regression**  | 77%              | 76%              | 0.1728    | 0.4158   |
-| **Logistic Regression**| 77%              | 76%              | 0.2338    | 0.4835   |
-| **SVM**                | 77%              | 76%              | 0.2338    | 0.4835   |
-| **KNN**                | 77%              | 73%              | 0.2662    | 0.5160   |
-| **Decision Tree**      | 77%              | 70%              | 0.3052    | 0.5524   |
-| **Random Forest**      | 77%              | 76%              | 0.2338    | 0.4835   |
+|------------------------|------------------|------------------|-----------|---------- |
+| **Linear Regression**  | 76%              | 77%              | 0.1647    | 0.4058    |
+| **Logistic Regression**| 76%              | 77%              | 0.2338    | 0.4835    | 
+| **SVM**                | 77%              | 76%              | 0.2338    | 0.4835    |
+| **KNN**                | 76%              | 67%              | 0.3246    | 0.5698    |
+| **Decision Tree**      | 76%              | 69%              | 0.3051    | 0.5524    |
+| **Random Forest**      | 76%              | 75%              | 0.2467    | 0.4967    |
 
 ---
 
